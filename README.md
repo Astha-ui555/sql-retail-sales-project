@@ -1,7 +1,7 @@
 # sql-retail-sales-project
 _**PROJECT OVERVIEW** :-_     
 **Project Title:** Retail Sales Analysis     
-**Database:** my_sql_project_P1    
+**Database:** `my_sql_project1`    
 **RDBMS:** PostgreSQL     
 
 This project focuses on applying SQL to manage and analyze retail sales data effectively using PgSQL. It covers the complete process - from creating a structural sales database to exploring data patterns, identifying key insights, and solving business-related queries using SQL commands. The aim is to strengthen data analysis skills and gain hands-on experience with real-world datasets, making it an excellent starting point for beginners in data analytics.  
@@ -15,10 +15,10 @@ _**OBJECTIVES**:-_
   _**PROJECT STRUCTURE**_  
 
 **1. Database Setup**     
-**• Database Creation:** The project begins with the creation of a database named my_sql_project_P1 to store and manage retail sales records.  
+**• Database Creation:** The project begins with the creation of a database named `my_sql_project1` to store and manage retail sales records.  
 **• Table Creation:** Within this database, a table named retail_sales is created to store sales information, including transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity, price per unit, cost of goods sold (COGS), and total sales amount.   
 
-  CREATE DATABASE my_sql_project1;   
+ CREATE DATABASE my_sql_project1;   
  CREATE TABLE retail_sales
       (  transactions_id INT PRIMARY KEY,
 		 sale_date	DATE,
@@ -31,7 +31,7 @@ _**OBJECTIVES**:-_
 		 price_per_unit	FLOAT,
 		 cogs FLOAT,
 		 total_sale FLOAT
-      );
+      ); 
 
 
 
